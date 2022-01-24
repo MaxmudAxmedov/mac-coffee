@@ -1304,7 +1304,6 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-bottom: 65px;
-    margin-left: 102px;
   }
   .foot__item + .foot__item {
     margin-left: 32px;
