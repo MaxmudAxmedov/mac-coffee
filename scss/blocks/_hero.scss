@@ -1,0 +1,28 @@
+.hero{
+  width: 327px;
+  height: 400px;
+  margin-bottom: 120px;
+  padding: 111px 24px 87px 24px;
+  background-image: url("../../img/coffee-back.png");
+  background-repeat: no-repeat;
+}
+.hero__content{
+  width: 279px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero__title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FEFCF7;
+}
+.hero__text{
+  font-size: 15px;
+  line-height: 25px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
