@@ -1,6 +1,6 @@
 .country{
   width: 327px;
-  margin-bottom: 120px;
+  margin: 0 auto 120px;
 }
 .country__title{
   margin: 0;
@@ -12,8 +12,6 @@
   color: #83888F;
 }
 .country__list{
-  display: flex;
-  flex-direction: column;
   width: 327px;
   list-style: none;
   margin: 0;
@@ -71,7 +69,7 @@
   color: #333D4B;
 }
 .location{
-  width: 327px;
+  width: 327px;   
   margin: 0 auto;
   text-align: center;
 }
@@ -82,6 +80,7 @@
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+  text-align: center;
 }
 .location__link{
   display: inline-block;
@@ -90,4 +89,123 @@
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+}
+
+@media only screen and(min-width: 768px){
+  .country{
+    width: 688px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+  }
+  .country__title{
+    text-align: left;
+  }
+  .country__list{
+    width: 688px;
+    display: flex;
+    margin-top: 150px;
+  }
+  .country__item{
+    width: 223px;
+  }
+  .country__item + .country__item{
+    margin-left: 10px;
+  }
+  .country__title-the{
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .location{
+    text-align: left;
+  }
+  .location__text{
+    text-align: left;
+  }
+  .eng::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 49px;
+    width: 40px;
+  }
+  .canada::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 50px;
+    width: 52px;
+
+  }
+  .australia::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 37px;
+    width: 49px;
+  }
+}
+@media only screen and(min-width: 1024px){
+  .country{
+    width: 1045px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+  }
+  .country__title{
+    text-align: left;
+    font-size: 24px;
+      line-height: 32px;
+  }
+  .country__list{
+    width: 1045px;
+    margin: 172px auto 0;
+    display: flex;
+  }
+  .country__item{
+    width: 285px;
+    margin-bottom: 168px;
+  
+  }
+  .country__item + .country__item{
+    margin-left: 95px;
+  }
+  .country__title-the{
+    text-align: left;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .location{
+    text-align: left;
+  }
+  .location__text{
+    text-align: left;
+  }
+  .eng::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 49px;
+    width: 40px;
+  }
+  .canada::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 50px;
+    width: 52px;
+
+  }
+  .australia::before{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    height: 37px;
+    width: 49px;
+  }
 }

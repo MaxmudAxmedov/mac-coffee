@@ -1,4 +1,6 @@
 .head{
+  width: 100%;
+  max-width: 1320px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,8 +13,51 @@
   width: 163px;
   height: 18px;
 }
+.head__list{
+  width: 100%;
+  max-width: 283px;
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.head__item{
+  text-align: center;
+}
+.head__item + .head__item{
+  margin-left: 32px;
+}
+  
+.head__link{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
 .head__hamburg{
   width: 16px;
   height: 15px;
   font-weight: 900;
+}
+
+@media only screen and(min-width: 768px){
+  .head__list{
+    display: flex;
+    align-items: center;
+  }
+  .head__hamburg{
+    display: none;
+  }
+}
+
+@media only screen and(min-width: 1024px){
+  .head{
+    padding: 45px 0;
+  }
+  .head__img{
+    width: 236px;
+    height: 24px;
+  }
 }
